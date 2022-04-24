@@ -1,0 +1,17 @@
+.to-do {
+  width: 100%;
+  line-height: calc(3.1875rem - var(--universal-padding) * 1.5);
+  top: calc(0rem - var(--universal-padding) / 4);
+  height: calc(3.1875rem + var(--universal-padding) / 2);
+  color: var(--header-fore-color);
+  padding: var(--universal-padding) calc(1.5 * var(--universal-padding));
+  cursor: pointer;
+  transition: background 0.3s;
+  box-sizing: border-box;
+}
+.to-do:hover {
+  background: var(--header-hover-back-color);
+}
+#inp {
+  width: calc(100% - 4.046875rem);
+}
